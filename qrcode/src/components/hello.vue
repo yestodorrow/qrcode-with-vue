@@ -1,6 +1,6 @@
 <template>
   <div class="hello">
-      <h1>欢迎生成二维码</h1>
+      <h1>欢迎使用二维码生成器</h1>
   </div>
 </template>
 <script>
