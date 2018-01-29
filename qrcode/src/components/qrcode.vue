@@ -11,7 +11,8 @@
   name:"what",
   data(){
    return {
-     www:"http://www.baidu.com"
+     www:"http://www.baidu.com",
+     num:0
    }
 },
   methods:{
@@ -24,6 +25,7 @@
         correctLevel:2,
         foreground:"#000000"
       })
+      localStorage.setItem("num"+this.num++,this.www)
     }
 }
 }
